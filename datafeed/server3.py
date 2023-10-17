@@ -218,7 +218,7 @@ def get(req_handler, routes):
                 return
 
 
-def run(routes, host='0.0.0.0', port=8080):
+def run(routes: object, host: object = '0.0.0.0', port: object = 8080) -> object:
     """ Runs a class as a server whose methods have been decorated with
         @route.
     """
